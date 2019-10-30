@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/all.css">
+    <script src="../lib/require.js" data-main="../js/detail.js"></script>
+    <script>
+    requirejs.config({
+        paths : {
+                "jquery" : "../lib/jquery-3.4.1.min"
+        }
+    })
+    </script>
+</head>
+<body>
+    @include('head.html');
+    <div id="detail" class="container clearfix">
+        <!-- <div class="detail_gallery l">
+            <div class="detail_gallery_normal">
+                <img src="../static/detail480.png" alt="">
+                <span></span>
+            </div>
+            <div class="detail_gallery_large">
+                <img src="../static/detail800.png" alt="">
+            </div>
+        </div>
+        <div class="detail_message l">
+            <h2>HUAWEI Mate 30 麒麟990</h2>
+            <p>价 格 <span class="detail_message_price">¥4299.00</span></p>
+            <p>选择颜色 <span class="detail_message_box">亮黑色</span> <span class="detail_message_box">星河银</span> <span class="detail_message_box">翡冷翠</span></p>
+            <div class="detail_message_btn clearfix">
+                <div class="detail_message_num l">
+                    <input type="text" value="1">
+                    <span>+</span>
+                    <span>-</span>
+                </div>
+                <div class="detail_message_cart l"><a href="#">加入购物车</a></div>
+                <div class="detail_message_computed l"><a href="#">立即下单</a></div>
+            </div>
+        </div> -->
+    </div>
+    <div id="detailGoods" class="container-fluid">
+        <!-- <h3>-- 商品详情 --</h3>
+        <img src="../static/goods_detail.jpg" alt="">
+        <img src="../static/goods_detail2.jpg" alt=""> -->
+    </div>
+    @include('foot.html');
+</body>
+</html>

@@ -1,0 +1,45 @@
+{
+    "type" : "book",
+    "title" : "笔记本电脑",
+    "code" : "0",
+    "goods_list" : [
+        {
+            "goodsImg" : "https://res1.vmallres.com/pimages//product/6901443333523/428_428_C6929357169D6798A25B33ADBC6672CAEAA0D4A9C5359BB6mp.png",
+            "goodsId" : "10086523442577",
+            "goodsName" : "HUAWEI MateBook D",
+            "goodsPrice" : 4988,
+            "chooseColor" : ["皓月银" , "深空灰"],
+            "photoNormal" : "https://res.vmallres.com/pimages//product/6901443333516/group//428_428_316C5F6A34FF343DE2020F8D49C2E96295FD7BAFAAF8E51F.jpg",
+            "photoLarge" : "https://res.vmallres.com/pimages//product/6901443333516/group//800_800_316C5F6A34FF343DE2020F8D49C2E96295FD7BAFAAF8E51F.jpg",
+            "goodsInfo" : ["https://res.vmallres.com/pimages/detailImg/2019/09/21/6915C02C41265C4750CDDC3926DB249678C29DC2E5060DF6.jpg","https://res.vmallres.com/pimages/detailImg/2019/09/21/029D3526A422419DC5B2CD346F9C1C89BB1A2D1FFDAB3C88.jpg"]
+        },
+        {
+            "goodsImg" : "https://res1.vmallres.com/pimages//product/6901443333578/428_428_97C374A5DE29E2E4BBDBA60B9A7F6D90898A56C4E9E00EAAmp.png",
+            "goodsId" : "10086690375130",
+            "goodsName" : "荣耀MagicBook 2019 科技尝鲜版",
+            "goodsPrice" : 3699,
+            "chooseColor" : ["冰河银"],
+            "photoNormal" : "https://res.vmallres.com/pimages//product/6901443333554/428_428_425567487650BEF6BE73040F24E41C61D219680D0D80FDF7mp.png",
+            "photoLarge" : "https://res.vmallres.com/pimages//product/6901443333554/800_800_425567487650BEF6BE73040F24E41C61D219680D0D80FDF7mp.png",
+            "goodsInfo" : ["https://res.vmallres.com/pimages/detailImg/2019/10/10/652AAB657049EC2CBC8F52407B8401D0A5C78BF7955CC5F8.jpg","https://res.vmallres.com/pimages/detailImg/2019/10/09/1AF2EFF202143832F4FE1E2AC2A74B8CC753C5D3271869AC.jpg"]
+        },
+        {
+            "goodsImg" : "https://res1.vmallres.com/pimages//product/6901443297962/428_428_1555752016264mp.png",
+            "goodsId" : "10086586095009",
+            "goodsName" : "HUAWEI MateBook X Pro",
+            "goodsPrice" : 7999
+        },
+        {
+            "goodsImg" : "https://res1.vmallres.com/pimages//product/6901443344949/428_428_1EB86162660FD51C6430A395BC0441BE2E327990E0343DCFmp.png",
+            "goodsId" : "10086774565098",
+            "goodsName" : "荣耀 MagicBook Pro 科技尝鲜版",
+            "goodsPrice" : 4199
+        },
+        {
+            "goodsImg" : "https://res1.vmallres.com/pimages//product/6901443313198/428_428_1563350288356mp.png",
+            "goodsId" : "10086431645343",
+            "goodsName" : "【新品】荣耀MagicBook 2019",
+            "goodsPrice" : 3999
+        }
+    ]
+}

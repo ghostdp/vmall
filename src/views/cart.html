@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/all.css">
+    <script src="../lib/require.js" data-main="../js/cart.js"></script>
+    <script>
+    requirejs.config({
+        paths : {
+                "jquery" : "../lib/jquery-3.4.1.min"
+        }
+    })
+    </script>
+</head>
+<body>
+    @include('head.html');
+    <div id="cart" class="container-fluid">
+        <div class="container">
+            <div class="cart_title">
+                <div><input class="cart_title_selectAll" type="checkbox"> 全选</div>
+                <div>商品</div>
+                <div>单价</div>
+                <div>数量</div>
+                <div>小计</div>
+                <div>操作</div>
+            </div>
+            <ul class="cart_list">
+                <!-- <li>
+                    <div><input type="checkbox"></div>
+                    <div>HUAWEI Mate 30 4G ( 亮黑色 )</div>
+                    <div>¥ 1899.00</div>
+                    <div>
+                        <span>-</span>
+                        <input class="cart_list_text" type="text" value="1">
+                        <span>+</span>
+                    </div>
+                    <div>¥ 1899.00</div>
+                    <div>删除</div>
+                </li>
+                <li>
+                    <div><input type="checkbox"></div>
+                    <div>HUAWEI Mate 30 4G ( 亮黑色 )</div>
+                    <div>¥ 1899.00</div>
+                    <div>
+                        <span>-</span>
+                        <input class="cart_list_text" type="text" value="1">
+                        <span>+</span>
+                    </div>
+                    <div>¥ 1899.00</div>
+                    <div>删除</div>
+                </li> -->
+            </ul>
+            <div class="cart_computed">
+                <div class="cart_computed_price">
+                    <p>总计：¥ 0.00</p>
+                    <p>已选择 0件商品</p>
+                </div>
+                <div class="cart_computed_btn">
+                    <a href="#">立即结算</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    @include('foot.html');
+</body>
+</html>

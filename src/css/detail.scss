@@ -1,0 +1,75 @@
+#detail{
+    .detail_gallery{
+        width:450px;
+        height: 450px;
+        position: relative;
+        .detail_gallery_normal{
+            position: relative;
+            @extend %per100_wh;
+            span{
+                @extend %pos0_lt;
+                width:200px;
+                height:200px;
+                background:rgba(255,255,255,0.2);
+                border:1px #ccc solid;
+                display: none;
+            }
+            img{ @extend %per100_wh;}
+        }
+        .detail_gallery_large{
+            position: absolute;
+            left:100%;
+            top:0;
+            border:1px black solid;
+            width:350px;
+            height:350px;
+            overflow: hidden;
+            display: none;
+            background:white;
+            z-index: 100;
+            img{ @extend %pos0_lt}
+        }
+    }
+    .detail_message{
+        margin-left:30px;
+        h2{ font-size:30px; margin:30px 10px;}
+        p{ 
+            margin:30px 10px;
+            display: flex;
+            align-items: center;
+            .detail_message_price{ font-size:30px; color:red; margin-left:30px;}
+            .detail_message_box{ border:1px red solid; padding:5px 10px; margin-left:30px; cursor: pointer;}
+            .active{ border:2px red solid; font-weight: bold;}
+        }
+        .detail_message_num{
+            width:60px;
+            height:40px;
+            position: relative;
+            border:1px #ccc solid;
+            margin:30px 10px;
+            input{ width:40px; height:100%; text-align: center; border:none;}
+            span{ width:20px; text-align: center; line-height: 20px; position: absolute; right:0; border-left:1px #ccc solid; font-weight: bold; box-sizing: border-box; cursor: pointer; user-select: none;}
+            span:first-of-type{ top:0; border-bottom: 1px #ccc solid;}
+            span:last-of-type{ top:20px;}
+        }
+        .detail_message_cart , .detail_message_computed{ 
+            width:172px; height:40px; background: #fc600c;  border-radius: 2px; text-align: center; line-height: 40px; margin:30px 10px;
+            a{ @extend %per100_wh; display: block; color: #fff;}
+        } 
+        .detail_message_computed{ 
+            background: #ca151d;
+        }
+    }
+}
+
+#detailGoods{
+    h3{
+        text-align: center;
+        margin-bottom: 30px;
+        font : {
+            size:40px;
+            weight:bold;
+        }
+    }
+    img{ margin:0 auto;}
+}

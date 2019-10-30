@@ -1,0 +1,45 @@
+{
+    "type" : "phone",
+    "title" : "手机",
+    "code" : "0",
+    "goods_list" : [
+        {
+            "goodsImg" : "https://res0.vmallres.com/pimages//product/6901443331109/428_428_9DF9BF94A5C5575108AF27F42DEEA8415F70E58F97882DEDmp.png",
+            "goodsId" : "10086619736763",
+            "goodsName" : "HUAWEI Mate 30 4G",
+            "goodsPrice" : 4299,
+            "chooseColor" : ["亮黑色" , "星河银" , "翡冷翠"],
+            "photoNormal" : "https://res.vmallres.com/pimages//product/6901443331109/group//428_428_A9ADE1D7363F3550A27F005A83FA0ADFC087EA33C6A0F62A.png",
+            "photoLarge" : "https://res.vmallres.com/pimages//product/6901443331109/group//800_800_A9ADE1D7363F3550A27F005A83FA0ADFC087EA33C6A0F62A.png",
+            "goodsInfo" : ["https://res.vmallres.com/pimages/detailImg/2019/09/19/59B48E349C36DF7C1E9949DDF21F593E6FC97FD0776CBE24.jpg","https://res.vmallres.com/pimages/detailImg/2019/09/27/E73DB6E1FB465A7B9153CDC6D4B91264FDC1080960E9BC64.jpg"]
+        },
+        {
+            "goodsImg" : "https://res0.vmallres.com/pimages//product/6901443323753/428_428_189FA79392B572C21EE009917E689200B6B6089FEB1C4ED9mp.png",
+            "goodsId" : "10086601038627",
+            "goodsName" : "荣耀20S",
+            "goodsPrice" : 1899,
+            "chooseColor" : ["蝶羽黑" , "蝶羽蓝" , "蝶羽白"],
+            "photoNormal" : "https://res.vmallres.com/pimages//product/6901443323753/group//428_428_F2B85D092975471744CE1DFC710A90EBE1DE99D73B4EAA3B.png",
+            "photoLarge" : "https://res.vmallres.com/pimages//product/6901443323753/group//800_800_F2B85D092975471744CE1DFC710A90EBE1DE99D73B4EAA3B.png",
+            "goodsInfo" : ["https://res.vmallres.com/pimages/detailImg/2019/09/06/6D22BCCE5790B5B564139869054F804F9A7F0EB7F7E2FE71.jpg","https://res.vmallres.com/pimages/detailImg/2019/09/06/AC93C9D516591CCF7925F411D677BDBE4495F2A9C55F5225.jpg"]
+        },
+        {
+            "goodsImg" : "https://res0.vmallres.com/pimages//product/6901443293513/428_428_1555464685019mp.png",
+            "goodsId" : "10086407020352",
+            "goodsName" : "HUAWEI P30 Pro",
+            "goodsPrice" : 4988
+        },
+        {
+            "goodsImg" : "https://res0.vmallres.com/pimages//product/6901443320394/428_428_1563504284133mp.png",
+            "goodsId" : "10086612323550",
+            "goodsName" : "荣耀9X PRO",
+            "goodsPrice" : 2199
+        },
+        {
+            "goodsImg" : "https://res0.vmallres.com/pimages//product/6901443298259/428_428_E6504A85DA0DF00A352F8C0995FDABD97F3CE5AA390EFDFBmp.png",
+            "goodsId" : "10086310519591",
+            "goodsName" : "荣耀20i",
+            "goodsPrice" : 1199
+        }
+    ]
+}

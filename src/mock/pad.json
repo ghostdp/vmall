@@ -1,0 +1,45 @@
+{
+    "type" : "pad",
+    "title" : "精品平板",
+    "code" : "0",
+    "goods_list" : [
+        {
+            "goodsImg" : "https://res2.vmallres.com/pimages//product/6901443265206/428_428_1539243364035mp.png",
+            "goodsId" : "10086466203116",
+            "goodsName" : "荣耀平板5 10.1英寸",
+            "goodsPrice" : 1149,
+            "chooseColor" : ["冰川蓝" , "苍穹灰"],
+            "photoNormal" : "https://res.vmallres.com/pimages//product/6901443265213/group//428_428_1539243066586.png",
+            "photoLarge" : "https://res.vmallres.com/pimages//product/6901443265213/group//800_800_1539243066586.png",
+            "goodsInfo" : ["https://res.vmallres.com/pimages/detailImg/2018/09/27/201809271617318036145.jpg","https://res.vmallres.com/pimages/detailImg/2018/09/27/201809271617321159355.jpg"]
+        },
+        {
+            "goodsImg" : "https://res2.vmallres.com/pimages//product/6901443319886/428_428_1560822806587mp.png",
+            "goodsId" : "10086370999865",
+            "goodsName" : "华为平板 M6 8.4英寸",
+            "goodsPrice" : 1899,
+            "chooseColor" : ["香槟金" , "幻影蓝", "幻影红"],
+            "photoNormal" : "https://res.vmallres.com/pimages//product/6901443319886/group//428_428_1560822808620.png",
+            "photoLarge" : "https://res.vmallres.com/pimages//product/6901443319886/group//800_800_1560822808620.png",
+            "goodsInfo" : ["https://res.vmallres.com/pimages/detailImg/2019/06/24/201906241527011619588.jpg","https://res.vmallres.com/pimages/detailImg/2019/09/05/C981158F781E0A3177EC6C86A48274A89957158164AF482B.jpg"]
+        },
+        {
+            "goodsImg" : "https://res2.vmallres.com/pimages//product/6901443288359/428_428_1552053266691mp.png",
+            "goodsId" : "10086725814724",
+            "goodsName" : "荣耀平板5 8英寸",
+            "goodsPrice" : 949
+        },
+        {
+            "goodsImg" : "https://res2.vmallres.com/pimages//product/6901443268023/428_428_1554811417873mp.png",
+            "goodsId" : "10086612323957",
+            "goodsName" : "华为平板 M5 青春版 10.1英寸",
+            "goodsPrice" : 1749
+        },
+        {
+            "goodsImg" : "https://res2.vmallres.com/pimages//product/6901443204526/428_428_1542765833879mp.png",
+            "goodsId" : "553104015",
+            "goodsName" : "荣耀Waterplay",
+            "goodsPrice" : 1099
+        }
+    ]
+}
